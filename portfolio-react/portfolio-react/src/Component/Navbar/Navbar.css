@@ -1,0 +1,43 @@
+.navbar{
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin: 2px 100px;
+    background-color: rgb(34, 33, 33);
+    
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    
+}
+
+.nav-connect:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    opacity: 0.8;
+    
+    cursor: pointer;
+}
+
+.home:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    opacity: 0.8;
+    
+    cursor: pointer;
+}
+.about_me{
+    transition: opacity 1s;
+    
+}
+.about_me:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    opacity: 0.8;
+    
+    cursor: pointer;
+}
